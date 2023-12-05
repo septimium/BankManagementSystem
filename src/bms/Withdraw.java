@@ -9,7 +9,7 @@ public class Withdraw {
         double amount = scan.nextDouble();
         if(acc.getBalance() >= amount) {
             acc.setBalance(acc.getBalance() - amount);
-            System.out.println(amount + " have been deposited successfully!");
+            System.out.println(amount + " have been withdrawn successfully!");
         }
         else
             System.out.println("You do not have enough money for this withdraw!");
