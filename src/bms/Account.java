@@ -6,11 +6,11 @@ public class Account {
     private String lastName;
     private int id;
     public double balance;
-    public String passcode;
+    public int passcode;
 
     public Account(){};
 
-    public Account(String firstName, String lastName, int id, double balance, String passcode) {
+    public Account(String firstName, String lastName, int id, double balance, int passcode) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.id = id;
@@ -50,11 +50,11 @@ public class Account {
         this.balance = balance;
     }
 
-    public String getPasscode() {
+    public int getPasscode() {
         return passcode;
     }
 
-    public void setPasscode(String passcode) {
+    public void setPasscode(int passcode) {
         this.passcode = passcode;
     }
 }

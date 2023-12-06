@@ -39,7 +39,7 @@ public class Database {
                 a.setLastName(array2[1]);
                 a.setId(Integer.parseInt(array2[2]));
                 a.setBalance(Double.parseDouble(array2[3]));
-                a.setPasscode(array2[4]);
+                a.setPasscode(Integer.parseInt(array2[4]));
                 accounts.add(a);
             }
         }
